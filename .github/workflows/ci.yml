@@ -109,6 +109,8 @@ jobs:
           publish_branch: gh-pages
 
   security:
+    # Можна вимкнути запуск перемінною репозиторію CODEQL_ADVANCED=false
+    if: ${{ vars.CODEQL_ADVANCED != 'false' }}
     name: CodeQL (JS + optional PY)
     runs-on: ubuntu-latest
     permissions:
