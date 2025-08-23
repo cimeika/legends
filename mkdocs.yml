@@ -1,0 +1,13 @@
+﻿site_name: Cimeika Knowledge
+site_url: https://example.org/
+nav:
+  - Home: index.md
+  - CiWiki: ciwiki.md
+  - Concepts:
+      - Overview: concepts/index.md
+  - Research:
+      - Overview: research/index.md
+  - Playbooks:
+      - Overview: playbooks/index.md
+theme:
+  name: material
