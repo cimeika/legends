@@ -1,0 +1,18 @@
+site_name: ciwiki
+theme:
+  name: material
+plugins:
+  - search
+  - minify
+markdown_extensions:
+  - admonition
+  - toc
+strict: true
+nav:
+  - Головна: index.md
+  - Ci: ci/index.md
+  - Казкар:
+      - Легенди:
+          - Образ Казкаря: kazkar/legends/obraz_kazkarya.md
+          - Дуалізм — сценарій: kazkar/legends/dualism_legend_scenario.md
+  - Проєкт: ciwiki.md
